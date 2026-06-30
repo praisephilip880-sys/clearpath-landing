@@ -24,6 +24,7 @@ body{background:var(--n);color:var(--c);font-family:var(--body);overflow-x:hidde
 #cursor-ring{position:fixed;width:40px;height:40px;border:1.5px solid rgba(194,84,45,0.5);border-radius:50%;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:transform .15s ease,width .3s ease,height .3s ease;}
 .cursor-grow #cursor{width:40px;height:40px;opacity:.3;}
 .cursor-grow #cursor-ring{width:60px;height:60px;}
+@media(max-width:800px){#cursor,#cursor-ring{display:none;}body{cursor:auto;}}
 #world-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;}
 #loader{position:fixed;inset:0;z-index:1000;background:var(--n);display:flex;flex-direction:column;align-items:center;justify-content:center;transition:opacity .8s ease;}
 .loader-bar{width:200px;height:1px;background:rgba(250,247,242,0.1);margin-top:24px;overflow:hidden;}
@@ -192,7 +193,7 @@ footer{position:relative;z-index:2;padding:32px 48px;border-top:1px solid rgba(2
     <a href="#how">How it works</a>
     <a href="#pricing">Pricing</a>
   </div>
-  <a href="#waitlist" class="nav-btn">Get early access</a>
+  <a href="https://node-server--derekrobert499.replit.app/dashboard/signup" class="nav-btn">Get early access</a>
 </nav>
 <section class="hero">
   <div class="hero-content">
@@ -204,7 +205,7 @@ footer{position:relative;z-index:2;padding:32px 48px;border-top:1px solid rgba(2
     </h1>
     <p class="hero-sub">Clearpath scans your website every week for the exact accessibility gaps plaintiff lawyers target. Catch them first — in plain English, before a $25,000 settlement does.</p>
     <div class="hero-actions">
-      <a href="#waitlist" class="btn-main"><span>Start monitoring free</span></a>
+      <a href="https://node-server--derekrobert499.replit.app/dashboard/signup" class="btn-main"><span>Start monitoring free</span></a>
       <a href="#how" class="btn-ghost">See how it works<svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 7h12M8 2l5 5-5 5"/></svg></a>
     </div>
   </div>
@@ -258,9 +259,9 @@ footer{position:relative;z-index:2;padding:32px 48px;border-top:1px solid rgba(2
     <h2 class="rv2">Cheaper than one<br><em>demand letter.</em></h2>
     <p class="sub rv3">Cancel any time. Every plan includes plain-English reports and email alerts on every new issue found.</p>
     <div class="pricing-grid">
-      <div class="plan rv"><div class="plan-name">Starter</div><div class="plan-price">$19<sub>/mo</sub></div><p class="plan-desc">For a single small business site that needs to stay protected.</p><ul class="plan-features"><li><span class="chk">✓</span>1 site monitored</li><li><span class="chk">✓</span>Weekly automated scans</li><li><span class="chk">✓</span>Plain-English issue reports</li><li><span class="chk">✓</span>Email alerts on new issues</li><li><span class="chk">✓</span>Score history dashboard</li></ul><a href="#waitlist" class="plan-cta">Get early access</a></div>
-      <div class="plan hot rv2"><div class="plan-tag">Most popular</div><div class="plan-name">Growth</div><div class="plan-price">$39<sub>/mo</sub></div><p class="plan-desc">For sites that update regularly — ecommerce, blogs, service businesses.</p><ul class="plan-features"><li><span class="chk">✓</span>1 site, up to 25 pages</li><li><span class="chk">✓</span>Twice-weekly scans</li><li><span class="chk">✓</span>Everything in Starter</li><li><span class="chk">✓</span>Auto-generated accessibility statement</li><li><span class="chk">✓</span>Priority email alerts</li></ul><a href="#waitlist" class="plan-cta">Get early access</a></div>
-      <div class="plan rv3"><div class="plan-name">Agency</div><div class="plan-price">$99<sub>/mo</sub></div><p class="plan-desc">For web agencies monitoring sites on behalf of multiple clients.</p><ul class="plan-features"><li><span class="chk">✓</span>Up to 8 client sites</li><li><span class="chk">✓</span>White-label PDF reports</li><li><span class="chk">✓</span>Everything in Growth</li><li><span class="chk">✓</span>Client-facing report links</li><li><span class="chk">✓</span>Team member access</li></ul><a href="#waitlist" class="plan-cta">Get early access</a></div>
+      <div class="plan rv"><div class="plan-name">Starter</div><div class="plan-price">$19<sub>/mo</sub></div><p class="plan-desc">For a single small business site that needs to stay protected.</p><ul class="plan-features"><li><span class="chk">✓</span>1 site monitored</li><li><span class="chk">✓</span>Weekly automated scans</li><li><span class="chk">✓</span>Plain-English issue reports</li><li><span class="chk">✓</span>Email alerts on new issues</li><li><span class="chk">✓</span>Score history dashboard</li></ul><a href="https://node-server--derekrobert499.replit.app/dashboard/signup" class="plan-cta">Get early access</a></div>
+      <div class="plan hot rv2"><div class="plan-tag">Most popular</div><div class="plan-name">Growth</div><div class="plan-price">$39<sub>/mo</sub></div><p class="plan-desc">For sites that update regularly — ecommerce, blogs, service businesses.</p><ul class="plan-features"><li><span class="chk">✓</span>1 site, up to 25 pages</li><li><span class="chk">✓</span>Twice-weekly scans</li><li><span class="chk">✓</span>Everything in Starter</li><li><span class="chk">✓</span>Auto-generated accessibility statement</li><li><span class="chk">✓</span>Priority email alerts</li></ul><a href="https://node-server--derekrobert499.replit.app/dashboard/signup" class="plan-cta">Get early access</a></div>
+      <div class="plan rv3"><div class="plan-name">Agency</div><div class="plan-price">$99<sub>/mo</sub></div><p class="plan-desc">For web agencies monitoring sites on behalf of multiple clients.</p><ul class="plan-features"><li><span class="chk">✓</span>Up to 8 client sites</li><li><span class="chk">✓</span>White-label PDF reports</li><li><span class="chk">✓</span>Everything in Growth</li><li><span class="chk">✓</span>Client-facing report links</li><li><span class="chk">✓</span>Team member access</li></ul><a href="https://node-server--derekrobert499.replit.app/dashboard/signup" class="plan-cta">Get early access</a></div>
     </div>
   </div>
 </section>
@@ -268,13 +269,11 @@ footer{position:relative;z-index:2;padding:32px 48px;border-top:1px solid rgba(2
   <div class="cta-inner">
     <div class="eyebrow rv" style="justify-content:center;">Early access</div>
     <h2 class="rv2">Find out what's on<br>your site before<br><em>someone else does.</em></h2>
-    <p class="sub rv3" style="margin:0 auto;text-align:center;">Join early access and get your first full scan free at launch.</p>
-    <form class="cta-form rv4" id="waitlist-form" action="https://formspree.io/f/xdavveoa" method="POST">
-      <input type="email" name="email" placeholder="your@email.com" required/>
-      <input type="hidden" name="_subject" value="New Clearpath waitlist signup"/>
-      <button type="submit">Get access</button>
-    </form>
-    <p class="cta-note rv4">No spam. Just your scan results when we launch.</p>
+    <p class="sub rv3" style="margin:0 auto;text-align:center;">Create your free account and get your first 3 scans on us. No credit card required.</p>
+    <div class="cta-form rv4" style="justify-content:center;">
+      <a href="https://node-server--derekrobert499.replit.app/dashboard/signup" class="btn-main" style="display:inline-block;"><span>Create free account</span></a>
+    </div>
+    <p class="cta-note rv4">No spam. Just your scan results, instantly.</p>
   </div>
 </section>
 <footer><span>Clearpath — accessibility monitoring for small business websites</span><span>© 2026</span></footer>
@@ -370,8 +369,6 @@ const loaderInt=setInterval(()=>{
   })();
   window.addEventListener('resize',()=>{const W=window.innerWidth,H=window.innerHeight;renderer.setSize(W,H);camera.aspect=W/H;camera.updateProjectionMatrix();});
 })();
-const form=document.getElementById('waitlist-form');
-if(form){form.addEventListener('submit',function(e){e.preventDefault();const btn=form.querySelector('button');btn.textContent='Sending…';btn.disabled=true;fetch(form.action,{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}}).then(r=>{if(r.ok){form.innerHTML='<p style="color:#FAF7F2;font-size:1rem;line-height:1.7;padding:20px 0;">You\'re on the list 🎉<br><span style="opacity:.5;font-size:.85rem;">We\'ll email you when your first scan is ready.</span></p>';}else{btn.textContent='Try again';btn.disabled=false;}}).catch(()=>{btn.textContent='Try again';btn.disabled=false;});});}
 </script>
 </body>
-  </html>
+</html>
